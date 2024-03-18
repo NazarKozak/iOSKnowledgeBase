@@ -13,6 +13,10 @@
 		6660890E2BA8EB7A00406BF9 /* LiskovSubstitutionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660890D2BA8EB7A00406BF9 /* LiskovSubstitutionPrinciple.swift */; };
 		666089102BA8EB9200406BF9 /* InterfaceSegregationPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660890F2BA8EB9200406BF9 /* InterfaceSegregationPrinciple.swift */; };
 		666089122BA8EBAD00406BF9 /* DependencyInversionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089112BA8EBAD00406BF9 /* DependencyInversionPrinciple.swift */; };
+		666089152BA8EC3100406BF9 /* DRYPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089142BA8EC3100406BF9 /* DRYPrinciple.swift */; };
+		666089182BA8ECB600406BF9 /* KISSPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089172BA8ECB600406BF9 /* KISSPrinciple.swift */; };
+		6660891B2BA8ED6000406BF9 /* YAGNIPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660891A2BA8ED6000406BF9 /* YAGNIPrinciple.swift */; };
+		6660891E2BA8EDCB00406BF9 /* CompositionOverInheritancePrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660891D2BA8EDCB00406BF9 /* CompositionOverInheritancePrinciple.swift */; };
 		666E5CFC2BA8EA660041818F /* iOSKnowledgeBaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5CFB2BA8EA660041818F /* iOSKnowledgeBaseApp.swift */; };
 		666E5CFE2BA8EA660041818F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5CFD2BA8EA660041818F /* ContentView.swift */; };
 		666E5D002BA8EA660041818F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5CFF2BA8EA660041818F /* Item.swift */; };
@@ -47,6 +51,10 @@
 		6660890D2BA8EB7A00406BF9 /* LiskovSubstitutionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovSubstitutionPrinciple.swift; sourceTree = "<group>"; };
 		6660890F2BA8EB9200406BF9 /* InterfaceSegregationPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSegregationPrinciple.swift; sourceTree = "<group>"; };
 		666089112BA8EBAD00406BF9 /* DependencyInversionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInversionPrinciple.swift; sourceTree = "<group>"; };
+		666089142BA8EC3100406BF9 /* DRYPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRYPrinciple.swift; sourceTree = "<group>"; };
+		666089172BA8ECB600406BF9 /* KISSPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KISSPrinciple.swift; sourceTree = "<group>"; };
+		6660891A2BA8ED6000406BF9 /* YAGNIPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAGNIPrinciple.swift; sourceTree = "<group>"; };
+		6660891D2BA8EDCB00406BF9 /* CompositionOverInheritancePrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionOverInheritancePrinciple.swift; sourceTree = "<group>"; };
 		666E5CF82BA8EA660041818F /* iOSKnowledgeBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSKnowledgeBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E5CFB2BA8EA660041818F /* iOSKnowledgeBaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSKnowledgeBaseApp.swift; sourceTree = "<group>"; };
 		666E5CFD2BA8EA660041818F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +96,10 @@
 		666089042BA8EAAD00406BF9 /* Principles */ = {
 			isa = PBXGroup;
 			children = (
+				6660891C2BA8EDB800406BF9 /* COI */,
+				666089192BA8ED5300406BF9 /* YAGNI */,
+				666089162BA8ECB100406BF9 /* KISS */,
+				666089132BA8EC2800406BF9 /* DRY */,
 				666089082BA8EB2900406BF9 /* SOLID */,
 				666089052BA8EAB200406BF9 /* OOP */,
 			);
@@ -112,6 +124,38 @@
 				666089112BA8EBAD00406BF9 /* DependencyInversionPrinciple.swift */,
 			);
 			path = SOLID;
+			sourceTree = "<group>";
+		};
+		666089132BA8EC2800406BF9 /* DRY */ = {
+			isa = PBXGroup;
+			children = (
+				666089142BA8EC3100406BF9 /* DRYPrinciple.swift */,
+			);
+			path = DRY;
+			sourceTree = "<group>";
+		};
+		666089162BA8ECB100406BF9 /* KISS */ = {
+			isa = PBXGroup;
+			children = (
+				666089172BA8ECB600406BF9 /* KISSPrinciple.swift */,
+			);
+			path = KISS;
+			sourceTree = "<group>";
+		};
+		666089192BA8ED5300406BF9 /* YAGNI */ = {
+			isa = PBXGroup;
+			children = (
+				6660891A2BA8ED6000406BF9 /* YAGNIPrinciple.swift */,
+			);
+			path = YAGNI;
+			sourceTree = "<group>";
+		};
+		6660891C2BA8EDB800406BF9 /* COI */ = {
+			isa = PBXGroup;
+			children = (
+				6660891D2BA8EDCB00406BF9 /* CompositionOverInheritancePrinciple.swift */,
+			);
+			path = COI;
 			sourceTree = "<group>";
 		};
 		666E5CEF2BA8EA660041818F = {
@@ -303,13 +347,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6660890E2BA8EB7A00406BF9 /* LiskovSubstitutionPrinciple.swift in Sources */,
+				6660891B2BA8ED6000406BF9 /* YAGNIPrinciple.swift in Sources */,
 				666E5CFE2BA8EA660041818F /* ContentView.swift in Sources */,
 				666E5D002BA8EA660041818F /* Item.swift in Sources */,
+				666089182BA8ECB600406BF9 /* KISSPrinciple.swift in Sources */,
 				666089072BA8EABD00406BF9 /* OOP.swift in Sources */,
 				666E5CFC2BA8EA660041818F /* iOSKnowledgeBaseApp.swift in Sources */,
 				666089102BA8EB9200406BF9 /* InterfaceSegregationPrinciple.swift in Sources */,
 				6660890C2BA8EB5D00406BF9 /* OpenClosedPrinciple.swift in Sources */,
+				6660891E2BA8EDCB00406BF9 /* CompositionOverInheritancePrinciple.swift in Sources */,
 				6660890A2BA8EB3E00406BF9 /* SingleResponsibilityPrinciple.swift in Sources */,
+				666089152BA8EC3100406BF9 /* DRYPrinciple.swift in Sources */,
 				666089122BA8EBAD00406BF9 /* DependencyInversionPrinciple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
