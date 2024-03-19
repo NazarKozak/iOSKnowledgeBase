@@ -7,6 +7,9 @@
 
 import Foundation
 
+/// Composition over Inheritance: This principle suggests favoring object composition over class inheritance whenever possible.
+/// By composing objects with behavior instead of inheriting it from a superclass, you can achieve greater flexibility and avoid some of the pitfalls of inheritance.
+
 /// In this example:
 /// We have a protocol VehicleMovement representing the behavior of moving for different vehicles.
 /// We implement concrete movement behaviors using classes DrivingMovement and FlyingMovement.
