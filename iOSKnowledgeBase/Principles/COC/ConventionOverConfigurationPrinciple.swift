@@ -50,3 +50,49 @@ class ConventionOverConfiguration {
         }
     }
 }
+
+// Convention over Configuration in iOS Project Structure
+
+// Project Structure Without CoC
+
+// ├── Controllers
+// │   ├── LoginViewController.swift
+// │   ├── ProfileViewController.swift
+// │   └── SettingsViewController.swift
+// ├── Models
+// │   ├── User.swift
+// │   └── Settings.swift
+// ├── Views
+// │   ├── LoginView.swift
+// │   ├── ProfileView.swift
+// │   └── SettingsView.swift
+// ├── Networking
+// │   ├── APIManager.swift
+// │   └── NetworkConstants.swift
+// └── Utilities
+//     ├── DateHelper.swift
+//     ├── ImageHelper.swift
+//     └── UserDefaultsHelper.swift
+
+// Project Structure With CoC
+
+// ├── Features
+// │   ├── Login
+// │   │   ├── LoginViewController.swift
+// │   │   └── LoginView.swift
+// │   ├── Profile
+// │   │   ├── ProfileViewController.swift
+// │   │   └── ProfileView.swift
+// │   └── Settings
+// │       ├── SettingsViewController.swift
+// │       └── SettingsView.swift
+// ├── Models
+// │   ├── User.swift
+// │   └── Settings.swift
+// ├── Networking
+// │   ├── APIManager.swift
+// │   └── NetworkConstants.swift
+// └── Utilities
+//     ├── DateHelper.swift
+//     ├── ImageHelper.swift
+//     └── UserDefaultsHelper.swift
