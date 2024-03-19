@@ -7,6 +7,8 @@
 
 import Foundation
 
+/// Dependency Injection (DI) is a design pattern in which the dependencies of a component are provided from the outside rather than being created internally. This promotes loose coupling between components and facilitates testing, reuse, and maintainability
+
 // Protocol defining the networking behavior
 protocol NetworkService {
     func fetchData(completion: @escaping (Result<Data, Error>) -> Void)
@@ -68,3 +70,12 @@ class UserServiceUseCase {
         }
     }
 }
+
+/// In this example:
+
+/// We define a NetworkService protocol to represent the behavior of fetching data from a remote server.
+/// APIService is a concrete implementation of NetworkService responsible for fetching data from a server.
+/// UserService depends on NetworkService protocol for fetching user data. It's initialized with an instance conforming to NetworkService.
+/// During initialization of UserService, we inject the dependency of APIService through its initializer.
+/// Finally, we create an instance of APIService and use it to create an instance of UserService. This instance is then used to fetch user data.
+/// This way, UserService is decoupled from the specific implementation of networking, making it easier to replace or mock the networking component during testing or when requirements change. Dependency injection promotes flexibility and testability in our codebase.
