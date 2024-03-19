@@ -19,6 +19,7 @@
 		6660891E2BA8EDCB00406BF9 /* CompositionOverInheritancePrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660891D2BA8EDCB00406BF9 /* CompositionOverInheritancePrinciple.swift */; };
 		666089222BA9CD6500406BF9 /* DependencyInjectionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089212BA9CD6500406BF9 /* DependencyInjectionPrinciple.swift */; };
 		666089252BA9CE0500406BF9 /* ConventionOverConfigurationPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089242BA9CE0500406BF9 /* ConventionOverConfigurationPrinciple.swift */; };
+		666089282BA9CFFC00406BF9 /* SeparationOfConcernsPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089272BA9CFFC00406BF9 /* SeparationOfConcernsPrinciple.swift */; };
 		666E5CFC2BA8EA660041818F /* iOSKnowledgeBaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5CFB2BA8EA660041818F /* iOSKnowledgeBaseApp.swift */; };
 		666E5CFE2BA8EA660041818F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5CFD2BA8EA660041818F /* ContentView.swift */; };
 		666E5D002BA8EA660041818F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5CFF2BA8EA660041818F /* Item.swift */; };
@@ -59,6 +60,7 @@
 		6660891D2BA8EDCB00406BF9 /* CompositionOverInheritancePrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionOverInheritancePrinciple.swift; sourceTree = "<group>"; };
 		666089212BA9CD6500406BF9 /* DependencyInjectionPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionPrinciple.swift; sourceTree = "<group>"; };
 		666089242BA9CE0500406BF9 /* ConventionOverConfigurationPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConventionOverConfigurationPrinciple.swift; sourceTree = "<group>"; };
+		666089272BA9CFFC00406BF9 /* SeparationOfConcernsPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparationOfConcernsPrinciple.swift; sourceTree = "<group>"; };
 		666E5CF82BA8EA660041818F /* iOSKnowledgeBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSKnowledgeBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E5CFB2BA8EA660041818F /* iOSKnowledgeBaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSKnowledgeBaseApp.swift; sourceTree = "<group>"; };
 		666E5CFD2BA8EA660041818F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,9 +102,10 @@
 		666089042BA8EAAD00406BF9 /* Principles */ = {
 			isa = PBXGroup;
 			children = (
-				666089232BA9CDFD00406BF9 /* COC */,
+				666089262BA9CFE500406BF9 /* SoC */,
+				666089232BA9CDFD00406BF9 /* CoC */,
 				666089202BA9CD5B00406BF9 /* DI */,
-				6660891C2BA8EDB800406BF9 /* COI */,
+				6660891C2BA8EDB800406BF9 /* CoI */,
 				666089192BA8ED5300406BF9 /* YAGNI */,
 				666089162BA8ECB100406BF9 /* KISS */,
 				666089132BA8EC2800406BF9 /* DRY */,
@@ -156,12 +159,12 @@
 			path = YAGNI;
 			sourceTree = "<group>";
 		};
-		6660891C2BA8EDB800406BF9 /* COI */ = {
+		6660891C2BA8EDB800406BF9 /* CoI */ = {
 			isa = PBXGroup;
 			children = (
 				6660891D2BA8EDCB00406BF9 /* CompositionOverInheritancePrinciple.swift */,
 			);
-			path = COI;
+			path = CoI;
 			sourceTree = "<group>";
 		};
 		6660891F2BA9CD1500406BF9 /* Patterns */ = {
@@ -179,12 +182,20 @@
 			path = DI;
 			sourceTree = "<group>";
 		};
-		666089232BA9CDFD00406BF9 /* COC */ = {
+		666089232BA9CDFD00406BF9 /* CoC */ = {
 			isa = PBXGroup;
 			children = (
 				666089242BA9CE0500406BF9 /* ConventionOverConfigurationPrinciple.swift */,
 			);
-			path = COC;
+			path = CoC;
+			sourceTree = "<group>";
+		};
+		666089262BA9CFE500406BF9 /* SoC */ = {
+			isa = PBXGroup;
+			children = (
+				666089272BA9CFFC00406BF9 /* SeparationOfConcernsPrinciple.swift */,
+			);
+			path = SoC;
 			sourceTree = "<group>";
 		};
 		666E5CEF2BA8EA660041818F = {
@@ -386,6 +397,7 @@
 				666E5CFC2BA8EA660041818F /* iOSKnowledgeBaseApp.swift in Sources */,
 				666089222BA9CD6500406BF9 /* DependencyInjectionPrinciple.swift in Sources */,
 				666089102BA8EB9200406BF9 /* InterfaceSegregationPrinciple.swift in Sources */,
+				666089282BA9CFFC00406BF9 /* SeparationOfConcernsPrinciple.swift in Sources */,
 				6660890C2BA8EB5D00406BF9 /* OpenClosedPrinciple.swift in Sources */,
 				6660891E2BA8EDCB00406BF9 /* CompositionOverInheritancePrinciple.swift in Sources */,
 				6660890A2BA8EB3E00406BF9 /* SingleResponsibilityPrinciple.swift in Sources */,
