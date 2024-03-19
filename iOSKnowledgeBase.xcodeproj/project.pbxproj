@@ -24,6 +24,7 @@
 		6660892E2BA9D21C00406BF9 /* FailFastPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660892D2BA9D21C00406BF9 /* FailFastPrinciple.swift */; };
 		666089312BA9D33B00406BF9 /* AHAPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089302BA9D33B00406BF9 /* AHAPrinciple.swift */; };
 		666089332BA9D3EC00406BF9 /* ProgramToInterfacesNotImplementationsPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089322BA9D3EC00406BF9 /* ProgramToInterfacesNotImplementationsPrinciple.swift */; };
+		666089372BA9D51900406BF9 /* LooseCouplingPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089362BA9D51900406BF9 /* LooseCouplingPrinciple.swift */; };
 		666E5CFC2BA8EA660041818F /* iOSKnowledgeBaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5CFB2BA8EA660041818F /* iOSKnowledgeBaseApp.swift */; };
 		666E5CFE2BA8EA660041818F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5CFD2BA8EA660041818F /* ContentView.swift */; };
 		666E5D002BA8EA660041818F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5CFF2BA8EA660041818F /* Item.swift */; };
@@ -69,6 +70,7 @@
 		6660892D2BA9D21C00406BF9 /* FailFastPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailFastPrinciple.swift; sourceTree = "<group>"; };
 		666089302BA9D33B00406BF9 /* AHAPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHAPrinciple.swift; sourceTree = "<group>"; };
 		666089322BA9D3EC00406BF9 /* ProgramToInterfacesNotImplementationsPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramToInterfacesNotImplementationsPrinciple.swift; sourceTree = "<group>"; };
+		666089362BA9D51900406BF9 /* LooseCouplingPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooseCouplingPrinciple.swift; sourceTree = "<group>"; };
 		666E5CF82BA8EA660041818F /* iOSKnowledgeBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSKnowledgeBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E5CFB2BA8EA660041818F /* iOSKnowledgeBaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSKnowledgeBaseApp.swift; sourceTree = "<group>"; };
 		666E5CFD2BA8EA660041818F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		666089042BA8EAAD00406BF9 /* Principles */ = {
 			isa = PBXGroup;
 			children = (
+				666089352BA9D51200406BF9 /* LooseCoupling */,
 				666089342BA9D3F100406BF9 /* PTINI */,
 				6660892F2BA9D33300406BF9 /* AHA */,
 				6660892C2BA9D21000406BF9 /* FailFast */,
@@ -240,6 +243,14 @@
 				666089322BA9D3EC00406BF9 /* ProgramToInterfacesNotImplementationsPrinciple.swift */,
 			);
 			path = PTINI;
+			sourceTree = "<group>";
+		};
+		666089352BA9D51200406BF9 /* LooseCoupling */ = {
+			isa = PBXGroup;
+			children = (
+				666089362BA9D51900406BF9 /* LooseCouplingPrinciple.swift */,
+			);
+			path = LooseCoupling;
 			sourceTree = "<group>";
 		};
 		666E5CEF2BA8EA660041818F = {
@@ -434,6 +445,7 @@
 				6660892B2BA9D19200406BF9 /* LawOfDemeterPrinciple.swift in Sources */,
 				6660890E2BA8EB7A00406BF9 /* LiskovSubstitutionPrinciple.swift in Sources */,
 				6660891B2BA8ED6000406BF9 /* YAGNIPrinciple.swift in Sources */,
+				666089372BA9D51900406BF9 /* LooseCouplingPrinciple.swift in Sources */,
 				666E5CFE2BA8EA660041818F /* ContentView.swift in Sources */,
 				666089252BA9CE0500406BF9 /* ConventionOverConfigurationPrinciple.swift in Sources */,
 				666E5D002BA8EA660041818F /* Item.swift in Sources */,
