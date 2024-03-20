@@ -26,6 +26,29 @@
 		666089332BA9D3EC00406BF9 /* ProgramToInterfacesNotImplementationsPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089322BA9D3EC00406BF9 /* ProgramToInterfacesNotImplementationsPrinciple.swift */; };
 		666089372BA9D51900406BF9 /* LooseCouplingPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089362BA9D51900406BF9 /* LooseCouplingPrinciple.swift */; };
 		6660893A2BA9D59100406BF9 /* EncapsulateWhatVariesPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089392BA9D59100406BF9 /* EncapsulateWhatVariesPrinciple.swift */; };
+		6660893C2BAB0FDE00406BF9 /* DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660893B2BAB0FDE00406BF9 /* DelegatePattern.swift */; };
+		6660893E2BAB109900406BF9 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660893D2BAB109900406BF9 /* Singleton.swift */; };
+		666089402BAB110D00406BF9 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660893F2BAB110D00406BF9 /* FactoryMethod.swift */; };
+		666089462BAB120900406BF9 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089452BAB120900406BF9 /* AbstractFactory.swift */; };
+		666089482BAB14A600406BF9 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089472BAB14A600406BF9 /* Builder.swift */; };
+		6660894A2BAB157A00406BF9 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089492BAB157A00406BF9 /* Prototype.swift */; };
+		6660894C2BAB27B400406BF9 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660894B2BAB27B400406BF9 /* Adapter.swift */; };
+		6660894E2BAB310500406BF9 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660894D2BAB310500406BF9 /* Bridge.swift */; };
+		666089502BAB31B600406BF9 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660894F2BAB31B600406BF9 /* Composite.swift */; };
+		666089522BAB325400406BF9 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089512BAB325400406BF9 /* Decorator.swift */; };
+		666089542BAB32A900406BF9 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089532BAB32A900406BF9 /* Facade.swift */; };
+		666089562BAB32FA00406BF9 /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089552BAB32FA00406BF9 /* Flyweight.swift */; };
+		666089582BAB336100406BF9 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089572BAB336100406BF9 /* Proxy.swift */; };
+		6660895A2BAB340A00406BF9 /* ChainOfResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089592BAB340A00406BF9 /* ChainOfResponsibility.swift */; };
+		6660895C2BAB347100406BF9 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660895B2BAB347100406BF9 /* Command.swift */; };
+		6660895E2BAB34E200406BF9 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660895D2BAB34E200406BF9 /* Iterator.swift */; };
+		666089602BAB351800406BF9 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660895F2BAB351800406BF9 /* Mediator.swift */; };
+		666089622BAB356A00406BF9 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089612BAB356A00406BF9 /* Memento.swift */; };
+		666089642BAB35A500406BF9 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089632BAB35A500406BF9 /* Observer.swift */; };
+		666089662BAB35E500406BF9 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089652BAB35E500406BF9 /* State.swift */; };
+		666089682BAB363700406BF9 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089672BAB363700406BF9 /* Strategy.swift */; };
+		6660896A2BAB367700406BF9 /* TemplateMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089692BAB367700406BF9 /* TemplateMethod.swift */; };
+		6660896C2BAB36B700406BF9 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660896B2BAB36B700406BF9 /* Visitor.swift */; };
 		666E5CFC2BA8EA660041818F /* iOSKnowledgeBaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5CFB2BA8EA660041818F /* iOSKnowledgeBaseApp.swift */; };
 		666E5CFE2BA8EA660041818F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5CFD2BA8EA660041818F /* ContentView.swift */; };
 		666E5D002BA8EA660041818F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E5CFF2BA8EA660041818F /* Item.swift */; };
@@ -73,6 +96,29 @@
 		666089322BA9D3EC00406BF9 /* ProgramToInterfacesNotImplementationsPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramToInterfacesNotImplementationsPrinciple.swift; sourceTree = "<group>"; };
 		666089362BA9D51900406BF9 /* LooseCouplingPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooseCouplingPrinciple.swift; sourceTree = "<group>"; };
 		666089392BA9D59100406BF9 /* EncapsulateWhatVariesPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncapsulateWhatVariesPrinciple.swift; sourceTree = "<group>"; };
+		6660893B2BAB0FDE00406BF9 /* DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePattern.swift; sourceTree = "<group>"; };
+		6660893D2BAB109900406BF9 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		6660893F2BAB110D00406BF9 /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
+		666089452BAB120900406BF9 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		666089472BAB14A600406BF9 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		666089492BAB157A00406BF9 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
+		6660894B2BAB27B400406BF9 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		6660894D2BAB310500406BF9 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		6660894F2BAB31B600406BF9 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		666089512BAB325400406BF9 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		666089532BAB32A900406BF9 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		666089552BAB32FA00406BF9 /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
+		666089572BAB336100406BF9 /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		666089592BAB340A00406BF9 /* ChainOfResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibility.swift; sourceTree = "<group>"; };
+		6660895B2BAB347100406BF9 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		6660895D2BAB34E200406BF9 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		6660895F2BAB351800406BF9 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		666089612BAB356A00406BF9 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		666089632BAB35A500406BF9 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		666089652BAB35E500406BF9 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		666089672BAB363700406BF9 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		666089692BAB367700406BF9 /* TemplateMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethod.swift; sourceTree = "<group>"; };
+		6660896B2BAB36B700406BF9 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
 		666E5CF82BA8EA660041818F /* iOSKnowledgeBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSKnowledgeBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E5CFB2BA8EA660041818F /* iOSKnowledgeBaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSKnowledgeBaseApp.swift; sourceTree = "<group>"; };
 		666E5CFD2BA8EA660041818F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -188,6 +234,7 @@
 		6660891F2BA9CD1500406BF9 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				6660893B2BAB0FDE00406BF9 /* DelegatePattern.swift */,
 			);
 			path = Patterns;
 			sourceTree = "<group>";
@@ -264,6 +311,49 @@
 			path = EncapsulateWhatVaries;
 			sourceTree = "<group>";
 		};
+		666089412BAB11C900406BF9 /* CreationalPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				666089452BAB120900406BF9 /* AbstractFactory.swift */,
+				666089472BAB14A600406BF9 /* Builder.swift */,
+				6660893F2BAB110D00406BF9 /* FactoryMethod.swift */,
+				666089492BAB157A00406BF9 /* Prototype.swift */,
+				6660893D2BAB109900406BF9 /* Singleton.swift */,
+			);
+			path = CreationalPatterns;
+			sourceTree = "<group>";
+		};
+		666089432BAB11E000406BF9 /* StructuralPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				6660894B2BAB27B400406BF9 /* Adapter.swift */,
+				6660894D2BAB310500406BF9 /* Bridge.swift */,
+				6660894F2BAB31B600406BF9 /* Composite.swift */,
+				666089512BAB325400406BF9 /* Decorator.swift */,
+				666089532BAB32A900406BF9 /* Facade.swift */,
+				666089552BAB32FA00406BF9 /* Flyweight.swift */,
+				666089572BAB336100406BF9 /* Proxy.swift */,
+			);
+			path = StructuralPatterns;
+			sourceTree = "<group>";
+		};
+		666089442BAB11F100406BF9 /* BehavioralPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				666089592BAB340A00406BF9 /* ChainOfResponsibility.swift */,
+				6660895B2BAB347100406BF9 /* Command.swift */,
+				6660895D2BAB34E200406BF9 /* Iterator.swift */,
+				6660895F2BAB351800406BF9 /* Mediator.swift */,
+				666089612BAB356A00406BF9 /* Memento.swift */,
+				666089632BAB35A500406BF9 /* Observer.swift */,
+				666089652BAB35E500406BF9 /* State.swift */,
+				666089672BAB363700406BF9 /* Strategy.swift */,
+				666089692BAB367700406BF9 /* TemplateMethod.swift */,
+				6660896B2BAB36B700406BF9 /* Visitor.swift */,
+			);
+			path = BehavioralPatterns;
+			sourceTree = "<group>";
+		};
 		666E5CEF2BA8EA660041818F = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +377,9 @@
 		666E5CFA2BA8EA660041818F /* iOSKnowledgeBase */ = {
 			isa = PBXGroup;
 			children = (
+				666089442BAB11F100406BF9 /* BehavioralPatterns */,
+				666089432BAB11E000406BF9 /* StructuralPatterns */,
+				666089412BAB11C900406BF9 /* CreationalPatterns */,
 				6660891F2BA9CD1500406BF9 /* Patterns */,
 				666089042BA8EAAD00406BF9 /* Principles */,
 				666E5CFB2BA8EA660041818F /* iOSKnowledgeBaseApp.swift */,
@@ -453,27 +546,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6660895C2BAB347100406BF9 /* Command.swift in Sources */,
+				666089462BAB120900406BF9 /* AbstractFactory.swift in Sources */,
 				6660892B2BA9D19200406BF9 /* LawOfDemeterPrinciple.swift in Sources */,
 				6660890E2BA8EB7A00406BF9 /* LiskovSubstitutionPrinciple.swift in Sources */,
+				6660893E2BAB109900406BF9 /* Singleton.swift in Sources */,
+				666089662BAB35E500406BF9 /* State.swift in Sources */,
 				6660891B2BA8ED6000406BF9 /* YAGNIPrinciple.swift in Sources */,
 				6660893A2BA9D59100406BF9 /* EncapsulateWhatVariesPrinciple.swift in Sources */,
+				666089542BAB32A900406BF9 /* Facade.swift in Sources */,
 				666089372BA9D51900406BF9 /* LooseCouplingPrinciple.swift in Sources */,
+				666089402BAB110D00406BF9 /* FactoryMethod.swift in Sources */,
 				666E5CFE2BA8EA660041818F /* ContentView.swift in Sources */,
+				6660895E2BAB34E200406BF9 /* Iterator.swift in Sources */,
 				666089252BA9CE0500406BF9 /* ConventionOverConfigurationPrinciple.swift in Sources */,
+				6660893C2BAB0FDE00406BF9 /* DelegatePattern.swift in Sources */,
 				666E5D002BA8EA660041818F /* Item.swift in Sources */,
 				666089182BA8ECB600406BF9 /* KISSPrinciple.swift in Sources */,
+				666089522BAB325400406BF9 /* Decorator.swift in Sources */,
 				666089072BA8EABD00406BF9 /* OOP.swift in Sources */,
 				666E5CFC2BA8EA660041818F /* iOSKnowledgeBaseApp.swift in Sources */,
 				666089222BA9CD6500406BF9 /* DependencyInjectionPrinciple.swift in Sources */,
+				6660894A2BAB157A00406BF9 /* Prototype.swift in Sources */,
 				6660892E2BA9D21C00406BF9 /* FailFastPrinciple.swift in Sources */,
+				6660894C2BAB27B400406BF9 /* Adapter.swift in Sources */,
 				666089332BA9D3EC00406BF9 /* ProgramToInterfacesNotImplementationsPrinciple.swift in Sources */,
+				6660894E2BAB310500406BF9 /* Bridge.swift in Sources */,
 				666089102BA8EB9200406BF9 /* InterfaceSegregationPrinciple.swift in Sources */,
+				666089682BAB363700406BF9 /* Strategy.swift in Sources */,
+				666089582BAB336100406BF9 /* Proxy.swift in Sources */,
+				666089642BAB35A500406BF9 /* Observer.swift in Sources */,
+				666089502BAB31B600406BF9 /* Composite.swift in Sources */,
+				6660895A2BAB340A00406BF9 /* ChainOfResponsibility.swift in Sources */,
+				6660896A2BAB367700406BF9 /* TemplateMethod.swift in Sources */,
+				666089562BAB32FA00406BF9 /* Flyweight.swift in Sources */,
+				666089602BAB351800406BF9 /* Mediator.swift in Sources */,
 				666089282BA9CFFC00406BF9 /* SeparationOfConcernsPrinciple.swift in Sources */,
 				6660890C2BA8EB5D00406BF9 /* OpenClosedPrinciple.swift in Sources */,
 				6660891E2BA8EDCB00406BF9 /* CompositionOverInheritancePrinciple.swift in Sources */,
 				6660890A2BA8EB3E00406BF9 /* SingleResponsibilityPrinciple.swift in Sources */,
+				666089482BAB14A600406BF9 /* Builder.swift in Sources */,
 				666089152BA8EC3100406BF9 /* DRYPrinciple.swift in Sources */,
+				666089622BAB356A00406BF9 /* Memento.swift in Sources */,
 				666089312BA9D33B00406BF9 /* AHAPrinciple.swift in Sources */,
+				6660896C2BAB36B700406BF9 /* Visitor.swift in Sources */,
 				666089122BA8EBAD00406BF9 /* DependencyInversionPrinciple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
