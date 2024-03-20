@@ -26,7 +26,7 @@
 		666089332BA9D3EC00406BF9 /* ProgramToInterfacesNotImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089322BA9D3EC00406BF9 /* ProgramToInterfacesNotImplementations.swift */; };
 		666089372BA9D51900406BF9 /* LooseCoupling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089362BA9D51900406BF9 /* LooseCoupling.swift */; };
 		6660893A2BA9D59100406BF9 /* EncapsulateWhatVariesPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089392BA9D59100406BF9 /* EncapsulateWhatVariesPrinciple.swift */; };
-		6660893C2BAB0FDE00406BF9 /* DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660893B2BAB0FDE00406BF9 /* DelegatePattern.swift */; };
+		6660893C2BAB0FDE00406BF9 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660893B2BAB0FDE00406BF9 /* Delegate.swift */; };
 		6660893E2BAB109900406BF9 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660893D2BAB109900406BF9 /* Singleton.swift */; };
 		666089402BAB110D00406BF9 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6660893F2BAB110D00406BF9 /* FactoryMethod.swift */; };
 		666089462BAB120900406BF9 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666089452BAB120900406BF9 /* AbstractFactory.swift */; };
@@ -96,7 +96,7 @@
 		666089322BA9D3EC00406BF9 /* ProgramToInterfacesNotImplementations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramToInterfacesNotImplementations.swift; sourceTree = "<group>"; };
 		666089362BA9D51900406BF9 /* LooseCoupling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooseCoupling.swift; sourceTree = "<group>"; };
 		666089392BA9D59100406BF9 /* EncapsulateWhatVariesPrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncapsulateWhatVariesPrinciple.swift; sourceTree = "<group>"; };
-		6660893B2BAB0FDE00406BF9 /* DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePattern.swift; sourceTree = "<group>"; };
+		6660893B2BAB0FDE00406BF9 /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
 		6660893D2BAB109900406BF9 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		6660893F2BAB110D00406BF9 /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
 		666089452BAB120900406BF9 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
@@ -202,7 +202,6 @@
 		6660891F2BA9CD1500406BF9 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				6660893B2BAB0FDE00406BF9 /* DelegatePattern.swift */,
 			);
 			path = Patterns;
 			sourceTree = "<group>";
@@ -246,6 +245,7 @@
 				666089672BAB363700406BF9 /* Strategy.swift */,
 				666089692BAB367700406BF9 /* TemplateMethod.swift */,
 				6660896B2BAB36B700406BF9 /* Visitor.swift */,
+				6660893B2BAB0FDE00406BF9 /* Delegate.swift */,
 			);
 			path = BehavioralPatterns;
 			sourceTree = "<group>";
@@ -456,7 +456,7 @@
 				666E5CFE2BA8EA660041818F /* ContentView.swift in Sources */,
 				6660895E2BAB34E200406BF9 /* Iterator.swift in Sources */,
 				666089252BA9CE0500406BF9 /* ConventionOverConfiguration.swift in Sources */,
-				6660893C2BAB0FDE00406BF9 /* DelegatePattern.swift in Sources */,
+				6660893C2BAB0FDE00406BF9 /* Delegate.swift in Sources */,
 				666E5D002BA8EA660041818F /* Item.swift in Sources */,
 				666089182BA8ECB600406BF9 /* KISS.swift in Sources */,
 				666089522BAB325400406BF9 /* Decorator.swift in Sources */,

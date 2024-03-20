@@ -1,5 +1,5 @@
 //
-//  DelegatePattern.swift
+//  Delegate.swift
 //  iOSKnowledgeBase
 //
 //  Created by Nazar Kozak on 20.03.2024.
