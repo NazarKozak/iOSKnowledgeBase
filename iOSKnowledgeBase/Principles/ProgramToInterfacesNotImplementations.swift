@@ -1,5 +1,5 @@
 //
-//  ProgramToInterfacesNotImplementationsPrinciple.swift
+//  ProgramToInterfacesNotImplementations.swift
 //  iOSKnowledgeBase
 //
 //  Created by Nazar Kozak on 19.03.2024.

@@ -1,5 +1,5 @@
 //
-//  KISSPrinciple.swift
+//  KISS.swift
 //  iOSKnowledgeBase
 //
 //  Created by Nazar Kozak on 18.03.2024.
