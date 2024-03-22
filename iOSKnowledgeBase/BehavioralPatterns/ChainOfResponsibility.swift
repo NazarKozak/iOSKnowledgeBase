@@ -218,6 +218,8 @@ class SignUpViewController: BaseAuthViewController {
 }
 
 class ChainOfResponsibilityRealWorld {
+
+
     func testChainOfResponsibilityRealWorld() {
         print("Client: Let's test Login flow!")
 
@@ -225,6 +227,8 @@ class ChainOfResponsibilityRealWorld {
         let loginController = LoginViewController(handler: loginHandler)
 
         loginController.loginButtonSelected()
+
+        UIControl()
 
         print("\nClient: Let's test SignUp flow!")
 

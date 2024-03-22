@@ -119,6 +119,8 @@
 		666089672BAB363700406BF9 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
 		666089692BAB367700406BF9 /* TemplateMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethod.swift; sourceTree = "<group>"; };
 		6660896B2BAB36B700406BF9 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		666089732BADDFA200406BF9 /* iOSDeveloper.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = iOSDeveloper.md; sourceTree = "<group>"; };
+		666089742BADDFDB00406BF9 /* Swift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Swift.md; sourceTree = "<group>"; };
 		666E5CF82BA8EA660041818F /* iOSKnowledgeBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSKnowledgeBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E5CFB2BA8EA660041818F /* iOSKnowledgeBaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSKnowledgeBaseApp.swift; sourceTree = "<group>"; };
 		666E5CFD2BA8EA660041818F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -250,6 +252,22 @@
 			path = BehavioralPatterns;
 			sourceTree = "<group>";
 		};
+		6660896D2BADACD700406BF9 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				666089732BADDFA200406BF9 /* iOSDeveloper.md */,
+				666089742BADDFDB00406BF9 /* Swift.md */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		666089702BADDE2B00406BF9 /* Bkeakdown */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bkeakdown;
+			sourceTree = "<group>";
+		};
 		666E5CEF2BA8EA660041818F = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +291,8 @@
 		666E5CFA2BA8EA660041818F /* iOSKnowledgeBase */ = {
 			isa = PBXGroup;
 			children = (
+				666089702BADDE2B00406BF9 /* Bkeakdown */,
+				6660896D2BADACD700406BF9 /* General */,
 				666089442BAB11F100406BF9 /* BehavioralPatterns */,
 				666089432BAB11E000406BF9 /* StructuralPatterns */,
 				666089412BAB11C900406BF9 /* CreationalPatterns */,
