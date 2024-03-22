@@ -127,6 +127,7 @@
 		666089782BAE2D6000406BF9 /* AdvancedXCode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AdvancedXCode.md; sourceTree = "<group>"; };
 		666089792BAE2D7600406BF9 /* iOSSDK.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = iOSSDK.md; sourceTree = "<group>"; };
 		6660897A2BAE2E1100406BF9 /* CommonPitfalls.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CommonPitfalls.md; sourceTree = "<group>"; };
+		6660897B2BAE30EF00406BF9 /* Challenges.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Challenges.md; sourceTree = "<group>"; };
 		666E5CF82BA8EA660041818F /* iOSKnowledgeBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSKnowledgeBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E5CFB2BA8EA660041818F /* iOSKnowledgeBaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSKnowledgeBaseApp.swift; sourceTree = "<group>"; };
 		666E5CFD2BA8EA660041818F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -269,6 +270,7 @@
 				666089782BAE2D6000406BF9 /* AdvancedXCode.md */,
 				666089792BAE2D7600406BF9 /* iOSSDK.md */,
 				6660897A2BAE2E1100406BF9 /* CommonPitfalls.md */,
+				6660897B2BAE30EF00406BF9 /* Challenges.md */,
 			);
 			path = General;
 			sourceTree = "<group>";
